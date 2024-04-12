@@ -36,7 +36,7 @@ function UserCard({ user }: { user: User }) {
 	);
 }
 
-function CarRow({ car, del }) {
+function CarRow({ car, del = false }) {
 	return (
 		<tr>
 			<td>{car.model}</td>
